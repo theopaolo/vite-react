@@ -1,0 +1,30 @@
+
+.parks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+
+.park-card {
+    background-color: greenyellow;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        list-style: none;
+
+        li {
+            font-weight: bold;
+        }
+    }
+}
+
+.park-card ul {
+    list-style: none;
+}
+
+.park-card ul li {
+    font-weight: bold;
+}
